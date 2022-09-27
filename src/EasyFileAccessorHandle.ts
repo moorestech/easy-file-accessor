@@ -1,7 +1,7 @@
 type FileSystemKind = 'file' | 'directory';
-interface FileSystemHandle {
+interface EasyFileAccessorHandle {
     readonly name: string;
     readonly kind: FileSystemKind;
     readonly path: string;
-    readonly ParentDirectory: DirectoryHandle;
+    readonly parentDirectory: DirectoryHandle;
 }
