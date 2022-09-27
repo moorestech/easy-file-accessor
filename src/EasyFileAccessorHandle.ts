@@ -3,5 +3,5 @@ interface EasyFileAccessorHandle {
     readonly kind: FileSystemKind;
     readonly name: string;
     readonly path: string;
-    readonly parentDirectory: DirectoryHandle;
+    readonly parentDirectory: DirectoryHandle | undefined;
 }
