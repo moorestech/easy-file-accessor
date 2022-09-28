@@ -1,7 +1,7 @@
 {
   "extends": ".",
   "compilerOptions": {
-    "module": "ESNext",
+    "module": "es2020",
     "outDir": "dist/esm",
     "declaration": true,
     "declarationMap": true
